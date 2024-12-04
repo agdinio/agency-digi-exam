@@ -1,0 +1,29 @@
+.GameScene {
+  position: relative;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/img/modal_back.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  .game-container {
+    position: relative;
+    margin: auto;
+    .game-canvas {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.CryptoWalletButton {
+  position: relative;
+  background: #17CA7F;
+  border-radius: 1.5rem;
+  padding: 0.7rem 0;
+  cursor: pointer;
+  color: #000;
+  width: 10rem;
+}
